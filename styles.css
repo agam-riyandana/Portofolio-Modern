@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: #e8491d 3px solid;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #e8491d;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.section {
+    padding: 50px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#about p {
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills ul li {
+    background: #e8491d;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#projects .project {
+    margin-bottom: 20px;
+}
+
+#projects .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#projects .project p {
+    font-size: 16px;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 18px;
+}
+
+#contact .social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#contact .social-media li {
+    margin: 0 10px;
+}
+
+#contact .social-media a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #333;
+}
+
+#contact .social-media a:hover {
+    color: #fff;
+}
+
+/* Colored Social Media Icons */
+#contact .social-media a.linkedin {
+    background-color: #0077b5;
+}
+
+#contact .social-media a.github {
+    background-color: #333;
+}
+
+#contact .social-media a.twitter {
+    background-color: #1da1f2;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 14px;
+}
